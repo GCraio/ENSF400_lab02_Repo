@@ -13,6 +13,8 @@ repo = g.get_user().get_repo("ENSF400_lab02_Repo")
 # Get all branches
 branches = repo.get_branches()
 
+
+#Random change
 # Print branch names
 for branch in branches:
     print(branch.name)
